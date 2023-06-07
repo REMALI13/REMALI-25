@@ -1,0 +1,60 @@
+
+AHMED@AHMED-PC MINGW32 ~/Desktop/GOMYCODE/learn_git_again (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/AHMED/Desktop/GOMYCODE/learn_git_again/.git/
+
+AHMED@AHMED-PC MINGW32 ~/Desktop/GOMYCODE/learn_git_again (master)
+$ git add .
+
+AHMED@AHMED-PC MINGW32 ~/Desktop/GOMYCODE/learn_git_again (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   learn_git_again.txt
+
+
+AHMED@AHMED-PC MINGW32 ~/Desktop/GOMYCODE/learn_git_again (master)
+$ git commit -m "initial commit"
+[master (root-commit) b690d08] initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 learn_git_again.txt
+
+AHMED@AHMED-PC MINGW32 ~/Desktop/GOMYCODE/learn_git_again (master)
+$ echo 2fille > third.txt.
+
+AHMED@AHMED-PC MINGW32 ~/Desktop/GOMYCODE/learn_git_again (master)
+$ echo 3fille > th.txt.
+
+AHMED@AHMED-PC MINGW32 ~/Desktop/GOMYCODE/learn_git_again (master)
+$ git commit -m "adding fourth.txt"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        th.txt.
+        third.txt.
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AHMED@AHMED-PC MINGW32 ~/Desktop/GOMYCODE/learn_git_again (master)
+$ git checkout
+
+AHMED@AHMED-PC MINGW32 ~/Desktop/GOMYCODE/learn_git_again (master)
+$ rm 'third.txt.'
+
+
+AHMED@AHMED-PC MINGW32 ~/Desktop/GOMYCODE/learn_git_again (master)
+$ git commit -m "adding fourth.txt"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        th.txt.
+
+
+AHMED@AHMED-PC MINGW32 ~/Desktop/GOMYCODE/learn_git_again (master)
+$ git config --global user.email remaliahmed1331@gmail.com
+
+
